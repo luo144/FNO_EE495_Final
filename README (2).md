@@ -69,34 +69,6 @@ python fno3d.py \--max\_steps 300 \--lr 0.001 \--modes1 24 \--modes2 24 \--modes
 
 *Note: Make sure to adjust the num\_workers and train\_dir/val\_dir paths in the if \_\_name\_\_ \== "\_\_main\_\_": block to match your local hardware and dataset paths.*
 
-## **📊 Results & Visualizations**
-
-*(You can drag and drop your generated images here when uploading to GitHub)*
-
-### **2D Prediction & Physics Consistency**
-
-The 2D FNO accurately predicts the PDE solution and strictly adheres to nonlinear conservation laws, as demonstrated by the perfect overlap in the Flux vs. Potential graphs.
-
-\<\!-- Replace the source below with your actual images uploaded to GitHub \--\>
-
-**\[Insert your 2D True vs Predicted Heatmap here\]**
-
-*Left: True Solution | Middle: FNO Prediction | Right: Absolute Error*
-
-**\[Insert your Flux vs Potential plot here\]**
-
-*Flux vs. Potential demonstrating physical consistency.*
-
-### **3D Spatiotemporal Dynamics**
-
-The 3D FNO tracks spatial data across complex boundaries, with discrepancies strictly confined to extreme high-frequency corners.
-
-\<\!-- Replace the source below with your actual images uploaded to GitHub \--\>
-
-**\[Insert your 3D Plot (Surface/Scatter) here\]**
-
-*3D visualization showing True Data, Predicted Solution, and Spatial Error Distribution.*
-
 ## **📜 Acknowledgments**
 
 Developed as the final project for **Scientific Machine Learning**. Special thanks to the course staff for the theoretical foundations in operator learning and physics-informed neural networks.
