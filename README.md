@@ -25,7 +25,7 @@ By learning infinite-dimensional operator mappings instead of grid-dependent fun
 ├── fno.py              \# 2D Fourier Neural Operator model, training, and evaluation  
 ├── fno3d.py            \# 3D Fourier Neural Operator model, optimized dataloader, and 3D plotting  
 ├── README.md           \# Project documentation  
-└── data/               \# (Placeholder) Directory for training and validation datasets
+└── data6/               \# (Placeholder) Directory for training and validation datasets
 
 ## **⚙️ Requirements**
 
